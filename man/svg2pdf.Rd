@@ -4,12 +4,16 @@
 \alias{svg2pdf}
 \title{svg2pdf}
 \usage{
-svg2pdf(svg, pdf)
+svg2pdf(svg, pdf, width = NA, height = NA)
 }
 \arguments{
 \item{svg}{svg file}
 
 \item{pdf}{pdf file}
+
+\item{width}{output width}
+
+\item{height}{output height}
 }
 \value{
 invisible grob object

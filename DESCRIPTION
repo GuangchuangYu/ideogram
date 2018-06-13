@@ -5,7 +5,9 @@ Authors@R: person("First", "Last", email = "first.last@example.com", role = c("a
 Description: What the package does (one paragraph).
 Depends: R (>= 3.5.0)
 Imports:
+  ggimage,
   ggplot2,
+  ggplotify,
   grDevices,
   grImport2,
   rsvg,
