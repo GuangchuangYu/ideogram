@@ -9,7 +9,7 @@ html_preview: false
 
 
 
-```{r fig.width=6.45, fig.height=6.4}
+```{r fig.width=6.45, fig.height=6.4, dpi=150}
 setwd("inst/example")
 karyotype <- read.table("karyotype.txt", sep = "\t", header = T, stringsAsFactors = F)
 mydata <- read.table("data_1.txt", sep = "\t", header = T, stringsAsFactors = F)
@@ -28,6 +28,7 @@ p <- pdf2ggplot(pdffile)
 
 p + ggplot2::labs(title = "ideogram", subtitle = "with overlaid data")
 ```
+
 
 
 
