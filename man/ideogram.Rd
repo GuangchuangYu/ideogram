@@ -21,3 +21,6 @@ output file
 \description{
 ideogram with overlaid heatmap annotation and optional track label
 }
+\author{
+Zhaodong Hao, Dekang Lv and Guangchuang Yu
+}

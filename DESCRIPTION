@@ -1,9 +1,12 @@
 Package: ideogram
 Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Version: 0.0.1
+Authors@R: c(person("Guangchuang", "Yu", email = "guangchuangyu@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-6485-8781")),
+           person("Zhaodong", "Hao", email = "first.last@example.com", role = "aut"),
+           person("Dekang", "Lv", email = "first.last@example.com", role = "aut")
+           )
 Description: What the package does (one paragraph).
-Depends: R (>= 3.5.0)
+Depends: R (>= 3.4.0)
 Imports:
   ggimage,
   ggplot2,

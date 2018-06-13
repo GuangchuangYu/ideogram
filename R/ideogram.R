@@ -10,6 +10,7 @@
 ##' @importFrom grDevices colorRampPalette
 ##' @importFrom scales rescale
 ##' @export
+##' @author Zhaodong Hao, Dekang Lv and Guangchuang Yu
 ideogram <- function(karyotype, overlaid, label = NULL, output = "chromosome.svg") {
     mydata <- overlaid
     mydata_interval <- label
