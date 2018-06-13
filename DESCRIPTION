@@ -5,7 +5,10 @@ Authors@R: person("First", "Last", email = "first.last@example.com", role = c("a
 Description: What the package does (one paragraph).
 Depends: R (>= 3.5.0)
 Imports:
+  ggplot2,
   grDevices,
+  grImport2,
+  rsvg,
   scales
 License: Artistic-2.0
 Encoding: UTF-8
