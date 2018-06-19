@@ -23,4 +23,4 @@ p <- pdf2ggplot(pdffile)
 p + ggplot2::labs(title = "ideogram", subtitle = "with overlaid data")
 ```
 
-![](README_files/figure-markdown_github/unnamed-chunk-1-1.png)
+![](README_files/figure-markdown_github/chromosome.jpg)
