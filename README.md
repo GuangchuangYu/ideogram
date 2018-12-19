@@ -1,3 +1,8 @@
+
+This package is deprecated, see the updated version on <https://github.com/TickingClock1992/RIdeogram>.
+
+----
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 ``` r
 setwd("inst/example")
